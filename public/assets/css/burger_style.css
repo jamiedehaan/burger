@@ -1,4 +1,43 @@
 body {
-    background: url("./img/background.jpeg");
+    background: url("../img/background.png");
     background-size: cover;
+    font-family: 'Architects Daughter', cursive;
+}
+
+button {
+    font-family: 'Architects Daughter', cursive;
+}
+
+.create-form {
+    margin: 5px;
+    padding: 5px;
+}
+
+#devoured {
+    float: left;
+    width: 33%;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 60pt;
+    text-align: center;
+}
+ 
+li {
+    margin: 5px;
+    padding: 5px;
+}
+
+#newBurger {
+    float: left;
+    width: 33%;
+}
+
+#waiting {
+    float: left;
+    width: 33%;
 }

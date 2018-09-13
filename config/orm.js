@@ -40,7 +40,7 @@ var orm = {
     queryS += ") ";
     queryS += "VALUES (";
     queryS += questionMarks(vals.length);
-    query += ") ";
+    queryS += ") ";
     connection.query(queryS, vals, function (err, result) {
       if (err) {
         throw err;

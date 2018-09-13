@@ -14,8 +14,9 @@ $(function () {
             }
         );
     });
-    $(".form").on("submit", function (event) {
+    $(".create-form").on("submit", function (event) {
         event.preventDefault();
+        console.log("working")
         var newB = {
             burger_name: $("#burgerName").val().trim()
         };
